@@ -5,7 +5,7 @@
 The following is a set of guidelines for contributing to the Objective Science International projects, which are hosted in the OSI's GitHub. These are mostly guidelines, not rules. Use your best judgment, and feel free to propose changes to this document in a pull request.
 
 # Required Software
-install before the installation guide
+Read before the installation guide!
 
 1. Dev:
      - [Arduino IDE](https://www.arduino.cc/).
