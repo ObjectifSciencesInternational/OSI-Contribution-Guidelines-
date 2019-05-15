@@ -184,6 +184,9 @@ ________________________________________________________________________________
   - ```brew install zsh```.
 6. install Oh-My-Zsh:
   - ```sh -c "$(curl -fsSL https://raw.githubusercontent.com/robbyrussell/oh-my-zsh/master/tools/install.sh)" ```.
+7.
+     - You can download and install  [Visual Studio Code](https://code.visualstudio.com) & [PlatformIO IDE for VSCode](https://docs.platformio.org/en/latest/ide/vscode.html).  by the following links 
+
 
 # Linux (Ubuntu)
   1. install Python
@@ -222,3 +225,33 @@ sudo apt-get install vim
  ```
   curl -L https://raw.githubusercontent.com/robbyrussell/oh-my-zsh/master/tools/install.sh | bash
  ```
+ 
+6. install VsCode:
+     - First, update the packages index and install the dependencies by typing:
+     ```
+     sudo apt update
+     ```
+     ```
+     sudo apt install software-properties-common apt-transport-https wget
+     ```
+     
+- Next, import the Microsoft GPG key using the following wget command:
+     ```
+     wget -q https://packages.microsoft.com/keys/microsoft.asc -O- | sudo apt-key add -
+     ```
+     
+- And enable the Visual Studio Code repository by typing:
+     ```
+     sudo add-apt-repository "deb [arch=amd64] https://packages.microsoft.com/repos/vscode stable main"
+     ```
+     
+- Once the repository is enabled, install the latest version of Visual Studio Code with:
+     ```
+     sudo apt update
+     ```
+- and
+     ```
+     sudo apt install code
+     ```
+     
+     
